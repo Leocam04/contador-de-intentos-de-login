@@ -1,0 +1,164 @@
+{
+    "archivo": "c:\\Users\\CRAZY\\Desktop\\proyecto\\contador de intentos de login\\accesos.log",
+    "resumen": {
+        "total_lineas_leidas": 30,
+        "eventos_sistema_ignorados": 2,
+        "total_intentos_login": 28,
+        "intentos_exitosos": 12,
+        "intentos_fallidos": 16,
+        "tasa_exito_pct": 42.86,
+        "tasa_fallo_pct": 57.14
+    },
+    "por_usuario": {
+        "admin": {
+            "EXITOSO": 2,
+            "FALLIDO": 4,
+            "TOTAL": 6
+        },
+        "carlos.perez": {
+            "EXITOSO": 2,
+            "FALLIDO": 4,
+            "TOTAL": 6
+        },
+        "maria.gomez": {
+            "EXITOSO": 2,
+            "FALLIDO": 1,
+            "TOTAL": 3
+        },
+        "ana.torres": {
+            "EXITOSO": 2,
+            "FALLIDO": 2,
+            "TOTAL": 4
+        },
+        "root": {
+            "EXITOSO": 0,
+            "FALLIDO": 2,
+            "TOTAL": 2
+        },
+        "luis.ramirez": {
+            "EXITOSO": 2,
+            "FALLIDO": 0,
+            "TOTAL": 2
+        },
+        "sofia.mendez": {
+            "EXITOSO": 2,
+            "FALLIDO": 0,
+            "TOTAL": 2
+        },
+        "guest": {
+            "EXITOSO": 0,
+            "FALLIDO": 1,
+            "TOTAL": 1
+        },
+        "test": {
+            "EXITOSO": 0,
+            "FALLIDO": 1,
+            "TOTAL": 1
+        },
+        "support": {
+            "EXITOSO": 0,
+            "FALLIDO": 1,
+            "TOTAL": 1
+        }
+    },
+    "por_ip": {
+        "192.168.1.10": {
+            "EXITOSO": 2,
+            "FALLIDO": 0,
+            "TOTAL": 2
+        },
+        "192.168.1.15": {
+            "EXITOSO": 1,
+            "FALLIDO": 0,
+            "TOTAL": 1
+        },
+        "192.168.1.22": {
+            "EXITOSO": 2,
+            "FALLIDO": 1,
+            "TOTAL": 3
+        },
+        "192.168.1.30": {
+            "EXITOSO": 2,
+            "FALLIDO": 2,
+            "TOTAL": 4
+        },
+        "45.33.32.156": {
+            "EXITOSO": 0,
+            "FALLIDO": 5,
+            "TOTAL": 5
+        },
+        "192.168.1.18": {
+            "EXITOSO": 2,
+            "FALLIDO": 0,
+            "TOTAL": 2
+        },
+        "10.0.0.54": {
+            "EXITOSO": 1,
+            "FALLIDO": 1,
+            "TOTAL": 2
+        },
+        "192.168.1.40": {
+            "EXITOSO": 2,
+            "FALLIDO": 0,
+            "TOTAL": 2
+        },
+        "185.220.101.7": {
+            "EXITOSO": 0,
+            "FALLIDO": 4,
+            "TOTAL": 4
+        },
+        "203.0.113.88": {
+            "EXITOSO": 0,
+            "FALLIDO": 3,
+            "TOTAL": 3
+        }
+    },
+    "por_hora": {
+        "08:00": {
+            "EXITOSO": 4,
+            "FALLIDO": 1,
+            "TOTAL": 5
+        },
+        "09:00": {
+            "EXITOSO": 2,
+            "FALLIDO": 6,
+            "TOTAL": 8
+        },
+        "10:00": {
+            "EXITOSO": 1,
+            "FALLIDO": 4,
+            "TOTAL": 5
+        },
+        "11:00": {
+            "EXITOSO": 3,
+            "FALLIDO": 2,
+            "TOTAL": 5
+        },
+        "12:00": {
+            "EXITOSO": 2,
+            "FALLIDO": 3,
+            "TOTAL": 5
+        }
+    },
+    "motivos_fallo": {
+        "Contrasena incorrecta": 9,
+        "Usuario inexistente": 3,
+        "Cuenta bloqueada temporalmente": 2,
+        "Usuario no permitido": 1,
+        "Token 2FA expirado": 1
+    },
+    "alertas_seguridad": {
+        "umbral_fallos": 3,
+        "ips_sospechosas": {
+            "45.33.32.156": 5,
+            "185.220.101.7": 4,
+            "203.0.113.88": 3
+        },
+        "usuarios_en_riesgo": {
+            "admin": 4,
+            "carlos.perez": 4
+        }
+    },
+    "fecha_analisis": "2026-11-06 12:00:00"
+}
+
